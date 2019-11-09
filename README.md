@@ -4,13 +4,13 @@
 
 # 畫面示意圖
 #### 首頁
-
+<img src="https://github.com/philip-lai/Sem3A4_trash-talk-generator/blob/master/README_pic/initial.png?raw=true" width="100%" />
 
 #### 若沒有選擇職業就想產生幹話
-
+<img src="https://github.com/philip-lai/Sem3A4_trash-talk-generator/blob/master/README_pic/nothing_generate.png?raw=true" width="100%" />
 
 #### 正確選擇職業並產生幹話
-
+<img src="https://github.com/philip-lai/Sem3A4_trash-talk-generator/blob/master/README_pic/generate.png?raw=true" width="100%" />
 
 # 安裝說明
 #### 1. 開啟終端機，將專案下載至本機端
