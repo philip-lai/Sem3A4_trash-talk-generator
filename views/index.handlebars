@@ -1,0 +1,52 @@
+<!--  ./views/index.handlebars -->
+<div class="container py-5">
+
+  <div class="row">
+    <div class="col-12 col-lg-10 col-xl-8 mx-auto">
+      <form method="POST" action="/">
+        <div class="card-deck mb-3">
+
+          <div class="card text-center">
+            <label class="card-body px-2">
+              {{!-- <h5 class="card-title"></h5> --}}
+              <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+                class="img-rounded" alt="Cinque Terre" width="220" height="220">
+              <input type="radio" name="career" value="engineer">
+              <span>工程師</span>
+            </label>
+          </div>
+
+          <div class="card text-center">
+            <label class="card-body px-2">
+              {{!-- <h5 class="card-title">設計師</h5> --}}
+              <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+                class="img-rounded" alt="Cinque Terre" width="220" height="220">
+              <input type="radio" name="career" value="designer">
+              <span>設計師</span>
+            </label>
+          </div>
+
+          <div class="card text-center">
+            <label class="card-body px-2">
+              {{!-- <h5 class="card-title">創業家</h5> --}}
+              <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+                class="img-rounded" alt="Cinque Terre" width="220" height="220">
+              <input type="radio" name="career" value="entrepreneur">
+              <span>創業家</span>
+            </label>
+          </div>
+        </div>
+
+        {{#if trashTalk}}
+        <div class="alert alert-info" role="alert">
+          <span class="mr-2">你的專屬幹話 :</span> <code>{{trashTalk}}</code>
+        </div>
+        {{/if}}
+        <button class="btn btn-success" type="submit">產生幹話</button>
+
+      </form>
+
+
+    </div>
+  </div>
+</div>
